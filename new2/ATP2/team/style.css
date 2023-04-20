@@ -1,0 +1,103 @@
+html,body{
+    height: 100%;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+title{
+font-size: 0;
+}
+
+body{
+    background-color: rgb(6, 12, 65);
+    color: rgb(211, 223, 255);
+}
+.Top_menu li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+.Logo, .Top_menu{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 25px;
+}
+
+.Top_menu a{
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.Logo h1{
+    font-family: arial;
+    font-size: 30px;
+    color: rgb(191, 211, 255);
+    vertical-align: middle;
+}
+
+.Top_menu a:hover{
+    color: aqua;
+}
+
+h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 2px -2px rgb(61, 60, 60);
+    text-transform: uppercase;
+}
+
+footer{
+    padding: 50px;
+background-color: black;
+
+}
+a{
+    /* text-decoration: none; */
+    color: aqua;
+    color: aqua;
+    font-weight: 10px;
+    font-family: arial;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+}
+
+.info{
+    text-align: right;
+    color: aqua;
+    
+}
+li{
+    font-weight: 30px;
+    color: beige;
+    text-transform: uppercase;
+    
+}
+
+
+main{
+    display: inline;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+table{
+    border: 1px;
+}
