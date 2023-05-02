@@ -1,93 +1,54 @@
-html,body{
-    height: 100%;
-}
-
-header{
-    background-color: black;
+body {
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+    font-family: 'Lucida Sans Unicode';
+  }
+  
+  header {
+    background-color: #FFF;
     display: flex;
-    justify-content: center;
-}
-
-title{
-font-size: 0;
-}
-
-body{
-    background-color: rgb(6, 12, 65);
-    color: rgb(211, 223, 255);
-}
-.Top_menu li{
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 25px;
-}
-
-.Logo, .Top_menu{
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 25px;
-}
-
-.Top_menu a{
-    font-family: arial;
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    vertical-align: middle;
-}
-
-.Logo h1{
-    font-family: arial;
-    font-size: 30px;
-    color: rgb(191, 211, 255);
-    vertical-align: middle;
-}
-
-.Top_menu a:hover{
-    color: aqua;
-}
-
-h1{
-    font-size: 50px;
-    color: aliceblue;
-}
-
-h2{
-    color: aliceblue;
-    font-size: 35px;
-    text-align: center;
-    font-family: sans-serif;
-    text-shadow: 2px -2px rgb(61, 60, 60);
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px 0;
+  }
+  
+  .logo {
+   display: flex;
+   gap: 12px;
+   align-items: center;
+  }
+  
+  .emblem {
+    width: 68px;
+    height: 64px;
+  }
+  
+  .name {
+    margin: 0;
+    color: #214581;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
     text-transform: uppercase;
-}
-
-footer{
-    padding: 50px;
-background-color: black;
-
-}
-a{
-    /* text-decoration: none; */
-    color: aqua;
-    color: aqua;
-    font-weight: 10px;
-    font-family: arial;
+  }
+  
+  .navigation a {
     text-decoration: none;
-    /* text-transform: uppercase; */
-}
-
-.info{
-    text-align: right;
-    color: aqua;
-    
-}
-li{
-    font-weight: 30px;
-    color: beige;
-    text-transform: uppercase;
-    
-}
-
-main{
-    text-align: center;
-}
+    color: #000;
+    transition: 0.3s;
+  }
+  
+  .navigation a:hover {
+   color: #4373c5;
+  }
+  
+  .active {
+    border-bottom: 2px solid #4373c5;
+  }
+  
+  .active a {
+    color: #4373c5;
+  }
