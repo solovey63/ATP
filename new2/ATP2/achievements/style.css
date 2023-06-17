@@ -106,7 +106,6 @@ h3{
     width: 114px;
     height: 114px;
     border-radius: 50%;
-    background: rgb(244,188,0);
     background: linear-gradient(90deg, rgba(244,188,0,1) 52%, rgba(254,255,0,1) 100%); 
     color: #FFF;
     align-items: center;
@@ -123,8 +122,6 @@ h3{
     width: 114px;
     height: 114px;
     border-radius: 50%;
-    background: rgb(126,97,0);
-    background: linear-gradient(90deg, rgba(126,97,0,1) 62%, rgba(198,162,0,1) 100%);background: rgb(126,97,0);
     background: linear-gradient(90deg, rgba(126,97,0,1) 62%, rgba(198,162,0,1) 100%);
     color: #FFF;
     align-items: center;
