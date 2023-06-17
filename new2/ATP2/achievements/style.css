@@ -90,7 +90,6 @@ h3{
     width: 114px;
     height: 114px;
     border-radius: 50%;
-    background: rgb(112,112,112);
     background: linear-gradient(90deg, rgba(112,112,112,1) 0%, rgba(233,236,237,1) 100%);
     color: #FFF;
     align-items: center;
@@ -160,7 +159,7 @@ footer{
     height:56px;
 }
 
-.logotip{
+.trademark{
     height: 64px;
 }
 
