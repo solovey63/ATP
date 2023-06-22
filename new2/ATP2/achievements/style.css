@@ -169,9 +169,11 @@ footer{
 }
 
 .trademark{
-    height: 64px;
+  height: 64px;
+  width: 112px;
 }
 
 .federation{
-    height: 64px;
+  height: 64px;
+  width: 64px;
 }
