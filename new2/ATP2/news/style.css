@@ -13,9 +13,9 @@ header {
 }
 
 .logo {
- display: flex;
- gap: 12px;
- align-items: center;
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }
 
 .emblem {
@@ -42,7 +42,7 @@ header {
 }
 
 .navigation a:hover {
- color: #4373c5;
+  color: #4373c5;
 }
 
 .active {
@@ -74,13 +74,13 @@ main {
   justify-content: center;
 }
 
-h3{
+h3 {
   color: #214581;
   text-align: center;
   font-size: x-large;
 }
 
-p{
+p {
   font-weight: bold;
   font-size: larger;
 }
@@ -89,12 +89,12 @@ img {
   height: 346px;
 }
 
-a{
+a {
   text-decoration: none;
   color: #214581;
 }
 
-footer{
+footer {
   background-color: #FFF;
   display: flex;
   justify-content: space-around;
@@ -103,18 +103,17 @@ footer{
 
 }
 
-.vk{
+.vk {
   width: 56px;
-  height:56px;
+  height: 56px;
 }
 
-.trademark{
+.trademark {
   height: 64px;
   width: 112px;
 }
 
-.federation{
+.federation {
   height: 64px;
   width: 64px;
 }
-

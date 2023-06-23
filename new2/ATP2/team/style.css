@@ -1,9 +1,9 @@
 body {
-    margin: 0;
-    background-color: rgb(235, 235, 235);
-    font-family: 'Lucida Sans Unicode';
-  }
-  
+  margin: 0;
+  background-color: rgb(235, 235, 235);
+  font-family: 'Lucida Sans Unicode';
+}
+
 header {
   background-color: #FFF;
   display: flex;
@@ -88,10 +88,10 @@ img {
   cursor: pointer;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.02);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
-  
+
 }
 
 .card span {
@@ -99,7 +99,7 @@ img {
 }
 
 
-footer{
+footer {
   background-color: #FFF;
   display: flex;
   justify-content: space-around;
@@ -108,17 +108,17 @@ footer{
 
 }
 
-.vk{
+.vk {
   width: 56px;
-  height:56px;
+  height: 56px;
 }
 
-.trademark{
+.trademark {
   height: 64px;
   width: 112px;
 }
 
-.federation{
+.federation {
   height: 64px;
   width: 64px;
 }
